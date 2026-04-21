@@ -1,7 +1,7 @@
 export default function Spectrogram({ imagePath }) {
   if (!imagePath) return null;
 
-  const imageUrl = `http://127.0.0.1:8000/${imagePath}`;
+  const imageUrl = `https://audio-ai-forensics.onrender.com/${imagePath}`;
 
   return (
     <div className="w-full glass p-6 md:p-7 rounded-2xl border border-white/20">

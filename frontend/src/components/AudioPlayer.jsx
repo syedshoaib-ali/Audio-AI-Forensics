@@ -7,7 +7,7 @@ export default function AudioPlayer({ audioPath, segments }) {
 
   if (!audioPath) return null;
 
-  const audioUrl = `http://127.0.0.1:8000/${encodeURIComponent(audioPath)}`;
+  const audioUrl = `https://audio-ai-forensics.onrender.com/${encodeURIComponent(audioPath)}`;
 
   const formatTime = (time) => {
     const min = Math.floor(time / 60);
