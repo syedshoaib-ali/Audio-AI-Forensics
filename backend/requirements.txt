@@ -7,4 +7,4 @@ soundfile
 python-multipart
 scikit-learn
 gdown
-cv2
+opencv-python
